@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Questify - Task Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Questify</h1>
+      <p>Level up your productivity!</p>
+      <p id="dailyQuote">Stay focused and never give up!</p>
+      <button id="themeToggle">🌙</button>
+    </header>
+
+    <section class="task-input">
+      <input type="text" id="taskInput" placeholder="Enter your next quest...">
+      <input type="date" id="taskDate" />
+      <input type="time" id="taskTime" />
+      <button id="addBtn">+ Add Task</button>
+    </section>
+
+    <section class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="completed">Completed</button>
+      <button class="filter-btn" data-filter="pending">Pending</button>
+    </section>
+
+    <ul id="taskList" class="task-list"></ul>
+
+    <section class="gamification">
+      <div class="level-display">
+        <p>Level: <span id="level">1</span></p>
+        <p>XP: <span id="xp">0</span> / <span id="xpMax">100</span></p>
+        <div class="xp-bar-bg">
+          <div id="xpBar" class="xp-bar"></div>
+        </div>
+      </div>
+      <div id="badgeContainer"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
