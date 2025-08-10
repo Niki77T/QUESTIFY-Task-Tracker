@@ -13,7 +13,7 @@ A simple, responsive To-Do List web page with a light/dark mode toggle
 -style.css # Styling for the app
 -script.js # Theme toggle + task handling logic
 
+![App Screenshot](<img width="500" height="272" alt="s1" src="https://github.com/user-attachments/assets/b63a1acd-d65a-4a19-b5f7-85efbea091eb" />)
+![App Screenshot](<img width="493" height="266" alt="s2" src="https://github.com/user-attachments/assets/f0e46184-8341-4d9e-8a93-ec34444a939a" />)
+![App Screenshot](<img width="457" height="296" alt="s3" src="https://github.com/user-attachments/assets/c38ca17d-1850-4e21-8eb8-e754e190497f" />)
 
-<img width="528" alt="task tracker" src="<"C:\Users\NIKITA TARIWAL\Pictures\Screenshots\s1.png"" />" />
-<img width="528" alt="task tracker" src="<"C:\Users\NIKITA TARIWAL\Pictures\Screenshots\s2.png"f" />" />
-<img width="528" alt="task tracker" src="< "C:\Users\NIKITA TARIWAL\Pictures\Screenshots\s3.png"" />" />
