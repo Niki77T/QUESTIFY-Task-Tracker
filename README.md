@@ -1,4 +1,4 @@
-# 📝 To-Do List App
+# 📝 Task Tracker
 
 A simple, responsive To-Do List web page with a light/dark mode toggle
 
